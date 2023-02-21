@@ -1,1 +1,10 @@
-hhjhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjss
+Simple Shell is a project which is an implementation of the shell created as a Milestone Project for the C code at ALX Africa Software Engineering. The gates of shell is a project in the first trimester, that helps student to understand the advanced concepts behind the shell program include process, system call, bit manipulation, file managment, error handling ... Shell is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). This program was written entirely in C Language. It is based on Thompson shell. Who designed and implemented the original Unix operating system, who wrote the first version of the UNIX shell, who invented the B programming language (the direct predecessor to the C programming language). How does a shell work? What is a pid and a ppid? How to manipulate the environment of the current process? What is the difference between a function and a system call? How to create processes? What are the three prototypes of main? How doesthe shell use the PATH to find the programs? How to execute another program withthe execve system call? These are all the questions this project give accurate answers to.
+
+Environment : Our shell was built and tested on Ubuntu 14.04 LTS.
+
+Features Display a prompt and wait for the user to type a command. A command line always ends with a new line. If an executable cannot be found, print an error message and display the prompt again. Handle errors. Hndling the “end of file” condition (Ctrl+D) Hanling the command line with arguments Handle the PATH Support the exit features and the exit status Handle the Ctrl-C to not terminate the shell Handling the command seperator ; Handling && and || logical operators Handle variable replacements 
+$ Handle the comments # Support the history feature Support the file input
+
+COMPILATION: All of the .c files along with a main.c file are to be compiled with gcc 4.8.4 on Ubuntu 14.04 LTS with the flags -Wall Werror -Westra and -pedantic. The files will be compiled this way: gcc -Wall -Werror -Wextra -pedantic *.c
+
+CONTRIBUTORS: Owoyomi Taiwo (Eto4God) Chidera Onyekachi (ChideraDev)
